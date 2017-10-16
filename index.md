@@ -1,10 +1,10 @@
 RFID Project
 ------------
 
-###Proposal - September 18,2017
+### Proposal - September 18,2017
 
-###Gantt Chart
+### Gantt Chart - September 25,2017
 
-###Budget
+### Budget - October 2, 2017
 
-###Recieved Hardware parts
+### Recieved Hardware parts - October 16, 2017
