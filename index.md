@@ -1,5 +1,6 @@
 RFID Project
 ------------
+### Started working PCB board - November 17, 2017
 
 ### Recieved Hardware parts - October 16, 2017
 
