@@ -1,10 +1,11 @@
 RFID Project
 ------------
+### Tested LED on my PCB board - November 30, 2017
 ![Alt text](https://github.com/gurusharma/RFID/blob/master/20171201_130101.jpg?raw=true "PCB Board LED working")
 Above is the picture of my PCB board with LED flashing red
 ![Alt text](https://github.com/gurusharma/RFID/blob/master/20171201_130036.jpg?raw=true "PCB Board LED working")
 Above is the picture of my PCB board with LED flashing green
-### Tested sensors on my PCB board - December 1, 2017
+
 
 ### Completed soldering my PCB board - November 24, 2017
 
