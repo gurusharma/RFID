@@ -2,7 +2,7 @@ RFID Project
 ------------
 ### Week 7 - November 30, 2017
 Got all sensors to work with my PCB board
-### Tested LED on my PCB board - November 30, 2017
+### Tested LED blinking on my PCB board - November 30, 2017
 ![Alt text](https://github.com/gurusharma/RFID/blob/master/20171201_130101.jpg?raw=true "PCB Board LED working")
 Above is the picture of my PCB board with LED flashing red
 ![Alt text](https://github.com/gurusharma/RFID/blob/master/20171201_130036.jpg?raw=true "PCB Board LED working")
