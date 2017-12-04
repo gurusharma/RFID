@@ -1,6 +1,5 @@
 RFID Project
 ------------
-![Alt text](https://github.com/gurusharma/RFID/blob/master/WhatsApp%20Video%202017-12-03%20at%2010.46.44%20PM.mp4?raw=true "PCB Board LED working")
 ![Alt text](https://github.com/gurusharma/RFID/blob/master/20171201_130101.jpg?raw=true "PCB Board LED working")
 ![Alt text](https://github.com/gurusharma/RFID/blob/master/20171201_130036.jpg?raw=true "PCB Board LED working")
 
