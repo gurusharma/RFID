@@ -5,7 +5,7 @@ Got all sensors to work with my PCB board
 ### Tested LED blinking on my PCB board - November 30, 2017
 ![Alt text](https://github.com/gurusharma/RFID/blob/master/20171201_130101.jpg?raw=true "PCB Board LED working")
 Above is the picture of my PCB board with LED flashing red
-![Alt text](https://github.com/gurusharma/RFID/blob/master/20171201_130036.jpg?raw=true "PCB Board LED working")
+![Alt text](https://github.com/gurusharma/RFID/blob/master/led_green.jpg?raw=true "PCB Board LED working")
 Above is the picture of my PCB board with LED flashing green
 
 
