@@ -1,7 +1,8 @@
 RFID Project
 ------------
 ### Week 7 - November 30, 2017
-Got all sensors to work with my PCB board
+* Got all the sensors to work with my PCB board
+* I started building voltage divider circuit for my sensor in order to connect it with raspberry pi
 ### Tested LED blinking on my PCB board - November 30, 2017
 ![Alt text](https://github.com/gurusharma/RFID/blob/master/led_red.jpg?raw=true "PCB Board LED working")<br>
 Above is the picture of my PCB board with LED flashing red<br>
