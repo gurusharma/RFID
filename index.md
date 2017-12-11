@@ -8,7 +8,7 @@ RFID Project
 Hello everyone, my name is Guru Sharma and I am working on the RFID card reader for the hardware project. The Parallax RFID (Radio-Frequency Identification) reader module that I utilize, consists of two parts - one is RFID Reader and the other is RFID tag, with 12 digit character code in a coil. When RFID tag (with read distance up to 4 inches) is placed near the RFID reader, it reads tag data serially. The transfer of data from Reader to Tag and Tag to Reader occurs with help of electromagnetic waves. For my project, I would be utilizing this technology to allow users to authenticate fast using RFID tags.
 ### Week 7 - November 30, 2017
 * Got all the sensors to work with my PCB board
-* I started building voltage divider circuit for my sensor in order to connect it with raspberry pi
+* I started building voltage divider circuit for my sensor in order to connect my sensor with raspberry pi
 ### Tested LED blinking on my PCB board - November 30, 2017
 ![Alt text](https://github.com/gurusharma/RFID/blob/master/led_red.jpg?raw=true "PCB Board LED working")<br>
 Above is the picture of my PCB board with LED flashing red<br>
@@ -17,6 +17,7 @@ Above is the picture of my PCB board with LED flashing green
 
 
 ### Completed soldering my PCB board - November 24, 2017
+Now I am waiting for the other sensors to arrive which I will be hooking with my PCB board to read light, temperature and humidity readings
 
 ### Started working on PCB board - November 17, 2017
 
