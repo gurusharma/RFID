@@ -2,7 +2,8 @@ RFID Project
 ------------
 ### Week 8 - December 11, 2017
 ### Placard
-[placard](https://github.com/gurusharma/RFID/blob/master/placard.pdf)
+[Placard](https://github.com/gurusharma/RFID/blob/master/placard.pdf) <br>
+![Alt text](https://github.com/gurusharma/RFID/blob/master/placard.png?raw=true "PCB Board LED working")<br>
 ### Script
 Hello everyone, my name is Guru Sharma and I am working on the RFID card reader for the hardware project. The Parallax RFID (Radio-Frequency Identification) reader module that I utilize, consists of two parts - one is RFID Reader and the other is RFID tag, with 12-byte character code in a coil. When RFID tag (with read distance up to 4 inches) is placed near the RFID reader, it reads tag data serially. The transfer of data from Reader to Tag and Tag to Reader occurs with help of electromagnetic waves. For my project, I would be utilizing this technology to allow users of our mobile app to login using RFID tags.
 ### Week 7 - November 30, 2017
