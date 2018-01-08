@@ -1,5 +1,9 @@
 RFID Project
 ------------
+### January 06 2018
+
+This is my [Progress Report](https://github.com/gurusharma/RFID/blob/master/Guru%20progress%20report.docx) for week 10.
+
 ### Week 9 - December 18, 2017
 30 Build videp script<br>
 [Youtube](https://www.youtube.com/watch?v=5qLQqCEe3fY&feature=youtu.be)<br>
