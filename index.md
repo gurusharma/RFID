@@ -5,7 +5,7 @@ RFID Project
 This is my [Progress Report](https://github.com/gurusharma/RFID/blob/master/Guru%20progress%20report.docx) for week 10.
 
 ### January 05 2018
-I was not able to find a 3D case for my RFID reader, so I designed it myself and got it printed from the Tornoto Public Library. Here is how it looks!!!
+I was not able to find a 3D case for my RFID reader on any website, so I designed it myself and got it printed from the Tornoto Public Library. I used the dimensions provided on manufacturers website to design my case. I have uploaded my design [file](https://github.com/gurusharma/RFID/blob/master/RFID%203D%20case/RFID%203D%20case.stl) in my repository. Here is how it looks!!!<br>
 ![Alt text](https://github.com/gurusharma/RFID/blob/master/RFID%203D%20case/rfid1.jpg?raw=true "RFID Reade case")<br>
 ![Alt text](https://github.com/gurusharma/RFID/blob/master/RFID%203D%20case/rfid2.jpg?raw=true "RFID Reade case")<br>
 ![Alt text](https://github.com/gurusharma/RFID/blob/master/RFID%203D%20case/rfid3.jpg?raw=true "RFID Reade case")<br>
