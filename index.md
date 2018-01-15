@@ -2,7 +2,7 @@ RFID Project
 ------------
 ### January 15 2018
 
-This is my [Presentation](https://github.com/gurusharma/RFID/blob/master/GuruPresentation.pptx) for week 11.
+[Presentation](https://github.com/gurusharma/RFID/blob/master/GuruPresentation.pptx) for week 11.
 ### January 06 2018
 
 This is my [Progress Report](https://github.com/gurusharma/RFID/blob/master/Guru%20progress%20report.docx) for week 10.
