@@ -51,7 +51,7 @@ This was part of a project course, divided over period of 12 weeks, but the actu
 
 \* Less than 30 Minutes if you follow the links provided in previous section
 
-From the breakdown above it is clear that the project does not take very long to complete. If you follow the instructions clearly and correctly and are dedicated, you can build your own prototype in less than a week.  
+From the breakdown above it is clear that the project does not take very long to complete. If you follow the instructions correctly and are dedicated, you can build your own prototype in less than a week.  
 
 ### Mechanical Assembly
 The Parallax Serial RFID (Radio Frequency Identification) Card Reader (#28140) can be connected to any host microcontroller easily using only four connections. For the purpose of this project, I am using Raspberry Pi 2. There are 4 pins on the RFID reader and following table (from official documentation) lists their type and functionality: 
