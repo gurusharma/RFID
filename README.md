@@ -119,7 +119,7 @@ Only soldering needed for this project is the one needed to create voltage divid
     3. soldering iron
 2.	Strip both ends of the wire
 3.	When soldering iron is ready to use: 
-    1. Solder two resistors at one end and one wire between them 
+    1. Solder two resistors at one end and one end of jumper wire between them 
     2. Now put the heat shrink on the middle wire
     
 Following these steps, you will get your voltage divider ready. Make sure to check output voltage using multimeter. 
