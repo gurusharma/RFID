@@ -27,8 +27,10 @@ Note: Please note that I will be referring to Raspberry Pi 2 as Pi occasionally.
 |    Soldering Kit (with Soldering Iron)               	|    1                        	|    $ 31.00 ***                                                                                                                     	|    Amazon   Humber                                          	|
 |    3-D Case for RFID reader                          	|    1                        	|    $ 1.80                                                                                                                          	|    Toronto   Public Library                                 	|
 
-\*4 pin to 4 separated pins female jumper wire-300mm (5 PCs pack)
+\* 4 pin to 4 separated pins female jumper wire-300mm (5 PCs pack)
+
 \** Elegoo Electronics component pack with resistors, LEDs, Switch, Potentiometer for Arduino UNO, MEGA2560, Raspberry Pi
+
 \*** Primacc Soldering Iron Kit
 
 
@@ -45,5 +47,5 @@ This was part of a project courses divided over period of 12 weeks but the hours
 |    Project setup                                   	|    < 10 minutes                              	|
 |    Demo and Testing                                	|    < 30 minutes                              	|
 
-\*Less than 30 Minutes if follow the links provided in previous section
+\* Less than 30 Minutes if follow the links provided in previous section
 From the breakdown above it is clear that the project does not take very long to complete. If you follow the instructions clearly and correctly and are dedicated, you can build your own prototype in less than a week.  
