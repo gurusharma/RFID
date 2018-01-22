@@ -22,7 +22,7 @@ Note: Please note that I will be referring to Raspberry Pi 2 as Pi occasionally.
 |                      Item                      	|        Quantity       	|                                                             Cost                                                             	|                                                                                     Supplier                                                                                     	|
 |:----------------------------------------------:	|:---------------------:	|:----------------------------------------------------------------------------------------------------------------------------:	|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:	|
 | Raspberry Pi 2 (Includes USB cable connectors) 	|           1           	| Only Pi: $ 45.95; Ultimate Starter Kit: $119.95; Complete Starter Kit: $99.95; Basic Starter Kit With Power Adaptor: $59.95 	|                                                        [Cana Kit](https://www.canakit.com/raspberry-pi/raspberry-pi-kits)                                                        	|
-|            RFID Card Reader and Tags           	| 1 (reader) + 3 (tags) 	|                                                            $ 59.99                                                           	|                                                             [Parallax Inc](https://www.parallax.com/product/32390)                                                              	|
+|            RFID Card Reader and Tags           	| 1(reader) + 3(tags) 	|                                                            $ 59.99                                                           	|                                                             [Parallax Inc](https://www.parallax.com/product/32390)                                                              	|
 |           Female-Female Jumper Wires           	|           1           	|                                                           $ 4.00 *                                                           	|                            [Seed Studio](https://www.seeedstudio.com/4-pin-to-4-separated--pins-female-jumper-wire-300mm-%285-PCs-pack%29-p-264.html)                           	|
 |                    Resistors                   	|           2           	|                                                           $ 6.86 **                                                          	|              [Amazon](https://www.amazon.com/dp/B01ERPXFZK/ref=sspa_dk_detail_3?psc=1&pd_rd_i=B01ERPXFZK&pd_rd_wg=MK4GM&pd_rd_r=60TKJ3G1SDZ08G6YW486&pd_rd_w=REy7O)             	|
 |       Soldering Kit (with Soldering Iron)      	|           1           	|                                                          $ 31.00 ***                                                         	| [Amazon](https://www.amazon.ca/Primacc-Adjustable-Temperature-Controlled-Interchangeable/dp/B06XCZC4PF/ref=sr_1_3?ie=UTF8&qid=1516578338&sr=8-3&keywords=soldering+kit)   Humber 	|
@@ -40,16 +40,16 @@ This was part of a project course, divided over period of 12 weeks, but the actu
 
 |    Tasks                                           	|    Time   Required to Finish Successfully    	|
 |----------------------------------------------------	|----------------------------------------------	|
-|    Look for parts and make a purchase*             	|    2 Hours                                   	|
+|    Look for parts and make a purchase *             	|    2 Hours                                   	|
 |    Wait for delivery                               	|    1 day to 1 week                           	|
 |    Soldering and Testing Voltage Divider           	|    < 1 hours                                 	|
 |    Create .stl file for custom case 3D printing    	|    < 1 hour                                  	|
 |    Print the 3D case                               	|    ~ 2 hours                                 	|
-|    Configure the Pi                                   |    ~ 2 hours                                  |
+|    Configure the Pi and download libraries            |    ~ 2 hours                                  |
 |    Project setup                                   	|    < 10 minutes                              	|
 |    Demo and Testing                                	|    < 30 minutes                              	|
 
-\* Less than 30 Minutes if follow the links provided in previous section
+\* Less than 30 Minutes if you follow the links provided in previous section
 From the breakdown above it is clear that the project does not take very long to complete. If you follow the instructions clearly and correctly and are dedicated, you can build your own prototype in less than a week.  
 
 ### Mechanical Assembly
