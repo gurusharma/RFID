@@ -1,7 +1,7 @@
 RFID Project
 ------------
 ### January 22 2018 
-[Project Build instructions](https://github.com/gurusharma/RFID/blob/master/README.md) were posted.
+[Project Build instructions](https://github.com/gurusharma/RFID/blob/master/README.md) posted.
 
 ### January 15 2018  
 
