@@ -52,14 +52,16 @@ From the breakdown above it is clear that the project does not take very long to
 ### Mechanical Assembly
 The Parallax Serial RFID (Radio Frequency Identification) Card Reader (#28140) can be connected to any host microcontroller easily using only four connections. For the purpose of this project, I am using Raspberry Pi 2. There are 4 pins on the RFID reader and following table (from official documentation) lists their type and functionality: 
 ![RFIDPins](https://github.com/gurusharma/RFID/blob/master/RFID%20Pins.PNG)
-    Figure 1: RFID Serial Card Reader pin type and functionality
+    ##### Figure 1: RFID Serial Card Reader pin type and functionality
 
 ![Connections](https://github.com/gurusharma/RFID/blob/master/Connections.png)
-    Figure 2: Schematic for connecting RFID Serial Card Reader to Raspberry Pi 2
+    ##### Figure 2: Schematic for connecting RFID Serial Card Reader to Raspberry Pi 2
 
 The SOUT pin of the RFID reader is connected to a voltage divider. Use a 2200 Ω (R1) resistor and a 3300 Ω (R2) resistor to reduce 5 volts coming out of the reader to about 3 volts. This is done to avoid the risk of damaging Pi with higher voltages. You can solder these resistors to create the voltage divider as shown in picture below. Make sure you check the output of voltage divider using a multimeter before incorporating it in the assembly.  
 Now create the circuit in Figure 2; this should not take more than 10 minutes if done carefully. 
-#Linux configuration: Use raspi-config to ensure that the shell is configured to run on serial port. From the main menu, select “Advanced Options” followed by “Serial”. Select “No” for the prompt to login shell over serial port. “Finish” and save configuration. Before you reboot also check that the “enable_uart” filed in “/boot/config.txt” is set equal to “1” and not “0”. Now reboot.
+
+#### Linux configuration: 
+Use raspi-config to ensure that the shell is configured to run on serial port. From the main menu, select “Advanced Options” followed by “Serial”. Select “No” for the prompt to login shell over serial port. “Finish” and save configuration. Before you reboot also check that the “enable_uart” filed in “/boot/config.txt” is set equal to “1” and not “0”. Now reboot.
 
 #### Install Python Packages: 
 You may choose to program in any other language compatible with Pi. For the purpose of these build instructions, I will explain steps of programming Pi using Python. You will need to have “Python GPIO” and “Serial” packages installed. Raspberry Pi Linux distribution usually have some python packages installed. In case they are missing you can use following commands to install it: 
