@@ -103,18 +103,18 @@ I utilized [TINKERCAD](https://www.tinkercad.com/) to create .stl file needed fo
     Figure 4: 3D Printed Sensor Case
 
 ##### TIP: 
-The software they use is “CURA” which by default tends to select thickness of printing thread to be 0.4 mm, which usually takes more than 2 hours to finish. Make sure to change this thickness to 0.6 mm (recommended) or 0.8 mm in order to get the print done in 2 hours. In case you still have any issues, ask the satff; they are very helpful. 
+The software they use for reading .stl file and printing is “CURA”, which by default tends to select thickness of printing thread to be 0.4 mm, which usually takes more than 2 hours to finish. Make sure to change this thickness to 0.6 mm (recommended) or 0.8 mm in order to get the print done in 2 hours. In case you still have any issues, ask the satff; they are very helpful. 
 
 ### PCB or Soldering
 Only soldering needed for this project is the one needed to create voltage divider circuit. Here are the steps:
 1.	Get the following parts: 
     1. two resistors R1 (2200 Ω) and R2 (3300 Ω)
-    2. three wires
+    2. one jumper wire and heat shrink
     3. soldering iron
-2.	Strip both ends of the wires 
+2.	Strip both ends of the wire
 3.	When soldering iron is ready to use: 
     1. Solder two resistors at one end and one wire between them 
-    2. Solder remaining two wires to the free ends of resistors
+    2. Now put the heat shrink on the middle wire
     
 Following these steps, you will get your voltage divider ready. Make sure to check output voltage using multimeter. 
 
