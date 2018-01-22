@@ -85,7 +85,7 @@ sudo pip install pySerial
 ```
 If you run into any issues with installation, follow this [link](https://jeffskinnerbox.wordpress.com/linux-python-packages-for-my-raspberry-pi/). 
 #### Write Python script: 
-You can download the script [here] 
+You can download the script [here](https://github.com/gurusharma/RFID/blob/master/rfid.py)
 and modify as needed. This script simply sets up Pi’s serial port and GPIO header. It identifies the tags being read by the reader inside a while loop. The reader reads input tag when it is enabled low. The code makes it enabled low and goes in the while loop and waits for the tag to be read. It is worth knowing that the RFID tag has 12 bytes of data, the validate_rfid function ensures that the tag being read has 12 characters.   
 
 #### Print a case for the sensor: 
