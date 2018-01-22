@@ -52,10 +52,12 @@ From the breakdown above it is clear that the project does not take very long to
 ### Mechanical Assembly
 The Parallax Serial RFID (Radio Frequency Identification) Card Reader (#28140) can be connected to any host microcontroller easily using only four connections. For the purpose of this project, I am using Raspberry Pi 2. There are 4 pins on the RFID reader and following table (from official documentation) lists their type and functionality: 
 ![RFIDPins](https://github.com/gurusharma/RFID/blob/master/RFID%20Pins.PNG)
-    ##### Figure 1: RFID Serial Card Reader pin type and functionality
+
+    * Figure 1: RFID Serial Card Reader pin type and functionality
 
 ![Connections](https://github.com/gurusharma/RFID/blob/master/Connections.png)
-    ##### Figure 2: Schematic for connecting RFID Serial Card Reader to Raspberry Pi 2
+
+    * Figure 2: Schematic for connecting RFID Serial Card Reader to Raspberry Pi 2
 
 The SOUT pin of the RFID reader is connected to a voltage divider. Use a 2200 Ω (R1) resistor and a 3300 Ω (R2) resistor to reduce 5 volts coming out of the reader to about 3 volts. This is done to avoid the risk of damaging Pi with higher voltages. You can solder these resistors to create the voltage divider as shown in picture below. Make sure you check the output of voltage divider using a multimeter before incorporating it in the assembly.  
 Now create the circuit in Figure 2; this should not take more than 10 minutes if done carefully. 
