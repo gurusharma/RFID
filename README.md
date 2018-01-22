@@ -36,7 +36,7 @@ Note: Please note that I will be referring to Raspberry Pi 2 as Pi occasionally.
 
 
 ### Time Commitment
-This was part of a project course, divided over period of 12 weeks, but the hours spent on it were much less than 12X24 hrs. If the project is the only thing you have to do then it should take less than a week depending on how you divide tasks and deal with delays associated with finding and purchasing items. The table below gives time breakdown per task: 
+This was part of a project course, divided over period of 12 weeks, but the hours spent on it were much less than 12X24 hrs. If the project is the only thing you have to do then it should take less than a week depending on how you divide tasks and deal with delays associated with finding and purchasing items. The table below gives approximate time breakdown per task: 
 
 |    Tasks                                           	|    Time   Required to Finish Successfully    	|
 |----------------------------------------------------	|----------------------------------------------	|
