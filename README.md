@@ -125,7 +125,7 @@ After proper setup and powerup, we can now test the RFID sensor. Run the Python 
 ```
     sudo python rfid.py
 ```    
-Now check for led color change on RFID reader; it should turn red from green. Now you can bring one of the “word tags” closer to the reader until it beeps. You will see the message displayed on the screen as “Welcome User #” if it was the tag belonging to a pre-registered user. If it was a new tag, the message displayed would be: “Please contact admin to register first”.
+Now check for LED color change on RFID reader; it should turn red from green. Now you can bring one of the “world tags” closer to the reader to read. You will see the message displayed on the screen as “Welcome User #” if it was the tag belonging to a pre-registered user. If it was a new tag, the message displayed would be: “Please contact admin to register first”.
 
 ### Production Testing 
 Write how color of LEDs change
