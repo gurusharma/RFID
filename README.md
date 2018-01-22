@@ -119,7 +119,8 @@ Only soldering needed for this project is the one needed to create voltage divid
 Following these steps, you will get your voltage divider ready. Make sure to check output voltage using multimeter. 
 
 ### Assembly 
-Now assemble all the parts as shown in the image below. Put the RFID tag inside its case.
+Now assemble all the parts as shown in the image below. Put the RFID tag inside its case. You may utilize any 'ground pin' for assembly.
+
 ![Circuit](https://github.com/gurusharma/RFID/blob/master/Circuit.png)
 
     Figure 5: Circuit Assembly with ports
