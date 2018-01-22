@@ -18,56 +18,30 @@ Here you will find the instructions for building your own project on Raspberry P
 Note: Please note that I will be referring to Raspberry Pi 2 as Pi occasionally. 
 
 ### Bill of Materials
-|    Item                                              	|    Quantity                 	|    Cost                                                                                                                                       	|    Supplier                                                 	|
-|------------------------------------------------------	|-----------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------	|-------------------------------------------------------------	|
-|    Raspberry Pi 2 (Includes USB cable connectors)    	|    1                        	|    Only Pi: $ 45.95      ULTIMATE STARTER   KIT: $119.95   COMPLETE   STARTER KIT: $99.95   BASIC STARTER   KIT WITH POWER ADAPTOR: $59.95    	|    Cana Kit                                                 	|
-|    RFID Card Reader and Tags                         	|    1 (reader) + 3 (tags)    	|    $ 59.99                                                                                                                                    	|    Parallax Inc   https://www.parallax.com/product/32390    	|
-|    Female-Female Jumper Wires                        	|    1                        	|    $ 4.00 *                                                                                                                                   	|    Seed   Studio                                            	|
-|    Resistors                                         	|    2                        	|    $ 6.86 **                                                                                                                                  	|    Amazon                                                   	|
-|    Soldering Kit (with Soldering Iron)               	|    1                        	|    $ 31.00 ***                                                                                                                                	|    Amazon   Humber                                          	|
-|    3-D Case for RFID reader                          	|    1                        	|    $ 1.80                                                                                                                                     	|    Toronto   Public Library                                 	|
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-zktd"><br>  Item<br>  </th>
-    <th class="tg-zktd"><br>  Quantity<br>  </th>
-    <th class="tg-gwa0"><br>  Cost<br>  </th>
-    <th class="tg-gwa0"><br>  Supplier<br>  </th>
-  </tr>
-  <tr>
-    <td class="tg-031e"><br>  Raspberry Pi 2 (Includes USB cable connectors)<br>  </td>
-    <td class="tg-031e"><br>  1<br>  </td>
-    <td class="tg-yw4l"><br>  Only Pi: $ 45.95<br>  <br>  ULTIMATE STARTER<br>  KIT: $119.95<br>  COMPLETE<br>  STARTER KIT: $99.95<br>  BASIC STARTER<br>  KIT WITH POWER ADAPTOR: $59.95<br>  </td>
-    <td class="tg-yw4l"><br>  Cana Kit<br>  </td>
-  </tr>
-  <tr>
-    <td class="tg-031e"><br>  RFID Card Reader and Tags<br>  </td>
-    <td class="tg-031e"><br>  1 (reader) + 3 (tags)<br>  </td>
-    <td class="tg-yw4l"><br>  $ 59.99<br>  </td>
-    <td class="tg-yw4l"><br>  Parallax Inc<br>  https://www.parallax.com/product/32390<br>  </td>
-  </tr>
-  <tr>
-    <td class="tg-031e"><br>  Female-Female Jumper Wires<br>  </td>
-    <td class="tg-031e"><br>  1<br>  </td>
-    <td class="tg-yw4l"><br>  $ 4.00 *<br>  </td>
-    <td class="tg-yw4l"><br>  Seed<br>  Studio<br>  </td>
-  </tr>
-  <tr>
-    <td class="tg-031e"><br>  Resistors<br>  </td>
-    <td class="tg-031e"><br>  2<br>  </td>
-    <td class="tg-yw4l"><br>  $ 6.86 **<br>  </td>
-    <td class="tg-yw4l"><br>  Amazon<br>  </td>
-  </tr>
-  <tr>
-    <td class="tg-031e"><br>  Soldering Kit (with Soldering Iron)<br>  </td>
-    <td class="tg-031e"><br>  1<br>  </td>
-    <td class="tg-yw4l"><br>  $ 31.00 ***<br>  </td>
-    <td class="tg-yw4l"><br>  Amazon<br>  Humber<br>  </td>
-  </tr>
-  <tr>
-    <td class="tg-031e"><br>  3-D Case for RFID reader<br>  </td>
-    <td class="tg-031e"><br>  1<br>  </td>
-    <td class="tg-yw4l"><br>  $ 1.80<br>  </td>
-    <td class="tg-yw4l"><br>  Toronto<br>  Public Library<br>  </td>
-  </tr>
-</table>
+### Bill of Materials
+|                         Item                         	|           Quantity          	|                                                                Cost                                                                	|                           Supplier                          	|
+|:----------------------------------------------------:	|:---------------------------:	|:----------------------------------------------------------------------------------------------------------------------------------:	|:-----------------------------------------------------------:	|
+|    Raspberry Pi 2 (Includes USB cable connectors)    	|    1                        	|    Only Pi: $ 45.95 ULTIMATE STARTER KIT: $119.95   COMPLETE STARTER KIT: $99.95   BASIC STARTER KIT WITH POWER ADAPTOR: $59.95    	|    Cana Kit                                                 	|
+|    RFID Card Reader and Tags                         	|    1 (reader) + 3 (tags)    	|    $ 59.99                                                                                                                         	|    Parallax Inc   https://www.parallax.com/product/32390    	|
+|    Female-Female Jumper Wires                        	|    1                        	|    $ 4.00 *                                                                                                                        	|    Seed   Studio                                            	|
+|    Resistors                                         	|    2                        	|    $ 6.86 **                                                                                                                       	|    Amazon                                                   	|
+|    Soldering Kit (with Soldering Iron)               	|    1                        	|    $ 31.00 ***                                                                                                                     	|    Amazon   Humber                                          	|
+|    3-D Case for RFID reader                          	|    1                        	|    $ 1.80                                                                                                                          	|    Toronto   Public Library                                 	|
+*4 pin to 4 separated pins female jumper wire-300mm (5 PCs pack)
+** Elegoo Electronics component pack with resistors, LEDs, Switch, Potentiometer for Arduino UNO, MEGA2560, Raspberry Pi
+*** Primacc Soldering Iron Kit
+
+
+### Time Commitment
+This was part of a project courses divided over period of 12 weeks but the hours spent on it were much less that 12X24. If the project is the only thing you have to do then it should take less than a week depending on how you divide tasks and deal with delays associated with finding and purchasing items. The table below gives time breakdown per task: 
+|    Tasks                                           	|    Time   Required to Finish Successfully    	|
+|----------------------------------------------------	|----------------------------------------------	|
+|    Look for parts and make a purchase*             	|    2 Hours                                   	|
+|    Wait for delivery                               	|    1 day to 1 week                           	|
+|    Soldering and Testing Voltage Divider           	|    < 1 hours                                 	|
+|    Create .stl file for custom case 3D printing    	|    < 1 hour                                  	|
+|    Print the 3D case                               	|    ~ 2 Hours                                 	|
+|    Project setup                                   	|    < 10 minutes                              	|
+|    Demo and Testing                                	|    < 30 minutes                              	|
+* Less than 30 Minutes if follow the links provided in previous section
+From the breakdown above it is clear that the project does not take very long to complete. If you follow the instructions clearly and correctly and are dedicated, you can build your own prototype in less than a week.  
