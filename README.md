@@ -7,7 +7,7 @@ RFID Reader Project
 2. [Bill of Materials](#bill-of-materials)
 3. [Time Commitment](#time-commitment)
 4. [Mechanical Assembly](#mechanical-assembly)
-5. [PCB or Soldering](#pcb-soldering)
+5. [PCB or Soldering](#pcb-or-soldering)
 6. [Power Up](#power-up)
 7. [Unit Testing](#unit-testing)
 8. [Production Testing](#production-testing)
@@ -50,6 +50,7 @@ This was part of a project courses divided over period of 12 weeks but the hours
 
 \* Less than 30 Minutes if follow the links provided in previous section
 From the breakdown above it is clear that the project does not take very long to complete. If you follow the instructions clearly and correctly and are dedicated, you can build your own prototype in less than a week.  
+
 ### Mechanical Assembly
 The Parallax Serial RFID (Radio Frequency Identification) Card Reader (#28140) can be connected to any host microcontroller easily using only four connections. For the purpose of this project, I am using Raspberry Pi 2. There are 4 pins on the RFID reader and following table (from official documentation) lists their type and functionality: 
 ![RFIDPins](https://github.com/gurusharma/RFID/blob/master/RFID%20Pins.PNG)
@@ -84,14 +85,16 @@ sudo pip install RPi.GPIO
 sudo pip install pySerial
 ```
 If you run into any issues with installation, follow this [link](https://jeffskinnerbox.wordpress.com/linux-python-packages-for-my-raspberry-pi/). 
+
 #### Write Python script: 
 You can download the script [here](https://github.com/gurusharma/RFID/blob/master/rfid.py)
 and modify as needed. This script simply sets up Pi’s serial port and GPIO header. It identifies the tags being read by the reader inside a while loop. The reader reads input tag when it is enabled low. The code makes it enabled low and goes in the while loop and waits for the tag to be read. It is worth knowing that the RFID tag has 12 bytes of data, the validate_rfid function ensures that the tag being read has 12 characters.   
 
 #### Print a case for the sensor: 
 I utilized [3D SLASH](https://www.3dslash.net/) to create .stl file needed for 3D printing. You may utilize the file I created and edit it as needed or use any other freely available online tool of your choice to do it from scratch. Once you are satisfied with .stl file, you may get it printed from any facility of your choice. If you choose to do it with Toronto Public Library, make sure to read the detailed instructions on their [website](https://www.torontopubliclibrary.ca/using-the-library/computer-services/innovation-spaces/3D-design-print.jsp). 
+
 ##### TIP: 
-The software they use is “CURA” which by default tends to select thickness of printing thread to be 0.4 mm, which usually takes more than 2 hours to finish. Make sure to change this thickness to 0.6 mm (recommended) or 0.8 mm in order to get the print jo done in 2 hours.
+The software they use is “CURA” which by default tends to select thickness of printing thread to be 0.4 mm, which usually takes more than 2 hours to finish. Make sure to change this thickness to 0.6 mm (recommended) or 0.8 mm in order to get the print done in 2 hours. In case you still have any issues, ask the satff; they are very helpful. 
 
 ### PCB or Soldering
 Only soldering needed for this project is the one needed to create voltage divider circuit. Here are the steps:
@@ -103,6 +106,7 @@ Only soldering needed for this project is the one needed to create voltage divid
 3.	When soldering iron is ready to use: 
     1. Solder two resistors at one end and one wire between them 
     2. Solder remaining two wires to the free ends of resistors
+    
 Following these steps, you will get your voltage divider ready. Make sure to check output voltage using multimeter. 
 
 ### Assembly 
