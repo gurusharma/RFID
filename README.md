@@ -85,7 +85,7 @@ I utilized [3D SLASH](https://www.3dslash.net/) to create .stl file needed for 3
 ##### TIP: 
 The software they use is “CURA” which by default tends to select thickness of printing thread to be 0.4 mm, which usually takes more than 2 hours to finish. Make sure to change this thickness to 0.6 mm (recommended) or 0.8 mm in order to get the print jo done in 2 hours.
 
-### PCB/Soldering
+### PCB\/Soldering
 Only soldering needed for this project is the one needed to create voltage divider circuit. Here are the steps:
 1.	Get the following parts: 
     a.	two resistors R1 (2200 Ω) and R2 (3300 Ω)
