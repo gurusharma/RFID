@@ -97,6 +97,7 @@ and modify as needed. This script simply sets up Pi’s serial port and GPIO hea
 
 #### Print a case for the sensor: 
 I utilized [3D SLASH](https://www.3dslash.net/) to create .stl file needed for 3D printing. You may utilize the [file](https://github.com/gurusharma/RFID/blob/master/RFID%203D%20case/RFID%203D%20case.stl) I created and edit it as needed or use any other freely available online tool of your choice to do it from scratch. Once you are satisfied with .stl file, you may get it printed from any facility of your choice. If you choose to do it with Toronto Public Library, make sure to read the detailed instructions on their [website](https://www.torontopubliclibrary.ca/using-the-library/computer-services/innovation-spaces/3D-design-print.jsp). 
+
 ![3DPrintOutput](https://github.com/gurusharma/RFID/blob/master/RFID%203D%20case/rfid1.jpg)
     
     Figure 4: 3D Printed Sensor Case
@@ -125,6 +126,7 @@ Now assemble all the parts as shown in the image below. Put the RFID tag inside 
 
 ![Assembly1](https://github.com/gurusharma/RFID/blob/master/Assembly1.jpg)
 ![Assembly2](https://github.com/gurusharma/RFID/blob/master/Assembly2.jpg)
+
     Figure 6: Complete Assembly
 
 ### Power Up
