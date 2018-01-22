@@ -49,3 +49,44 @@ This was part of a project courses divided over period of 12 weeks but the hours
 
 \* Less than 30 Minutes if follow the links provided in previous section
 From the breakdown above it is clear that the project does not take very long to complete. If you follow the instructions clearly and correctly and are dedicated, you can build your own prototype in less than a week.  
+### Mechanical Assembly
+The Parallax Serial RFID (Radio Frequency Identification) Card Reader (#28140) can be connected to any host microcontroller easily using only four connections. For the purpose of this project, I am using Raspberry Pi 2. There are 4 pins on the RFID reader and following table (from official documentation) lists their type and functionality: 
+Figure 1: RFID Serial Card Reader pin type and functionality
+
+Figure 2: Schematic for connecting RFID Serial Card Reader to Raspberry Pi 2
+
+The SOUT pin of the RFID reader is connected to a voltage divider. Use a 2200 Ω (R1) resistor and a 3300 Ω (R2) resistor to reduce 5 volts coming out of the reader to about 3 volts. This is done to avoid the risk of damaging Pi with higher voltages. You can solder these resistors to create the voltage divider as shown in picture below. Make sure you check the output of voltage divider using a multimeter before incorporating it in the assembly.  
+Now create the circuit in Figure 2; this should not take more than 10 minutes if done carefully. 
+#Linux configuration: Use raspi-config to ensure that the shell is configured to run on serial port. From the main menu, select “Advanced Options” followed by “Serial”. Select “No” for the prompt to login shell over serial port. “Finish” and save configuration. Before you reboot also check that the “enable_uart” filed in “/boot/config.txt” is set equal to “1” and not “0”. Now reboot.
+
+# Install Python Packages: 
+You may choose to program in any other language compatible with Pi. For the purpose of these build instructions, I will explain steps of programming Pi using Python. You will need to have “Python GPIO” and “Serial” packages installed. Raspberry Pi Linux distribution usually have some python packages installed. In case they are missing you can use following commands to install it: 
+sudo apt-get install python
+sudo apt-get install python-dev
+sudo apt-get install libjpeg-dev
+sudo apt-get install libfreetype6-dev
+sudo apt-get install python-setuptools
+sudo apt-get install python-pip
+After installing Python you may now install above mentioned packages using: 
+sudo pip install RPi.GPIO
+sudo pip install pySerial
+If you run into any issues with installation, follow this link: https://jeffskinnerbox.wordpress.com/linux-python-packages-for-my-raspberry-pi/. 
+# Write Python script: 
+You can download the script here: and modify as needed. This script simply sets up Pi’s serial port and GPIO header. It identifies the tags being read by the reader inside a while loop. The reader reads input tag when it is enabled low. The code makes it enabled low and goes in the while loop and waits for the tag to be read. It is worth knowing that the RFID tag has 12 bytes of data, the validate_rfid function ensures that the tag being read has 12 characters.   
+
+# Print a case for the sensor: 
+I utilized [3D SLASH](https://www.3dslash.net/) to create .stl file needed for 3D printing. You may utilize the file I created and edit it as needed or use any other freely available online tool of your choice to do it from scratch. Once you are satisfied with .stl file, you may get it printed from any facility of your choice. If you choose to do it with Toronto Public Library, make sure to read the detailed instructions on their [website](https://www.torontopubliclibrary.ca/using-the-library/computer-services/innovation-spaces/3D-design-print.jsp). 
+# TIP: 
+The software they use is “CURA” which by default tends to select thickness of printing thread to be 0.4 mm, which usually takes more than 2 hours to finish. Make sure to change this thickness to 0.6 mm (recommended) or 0.8 mm in order to get the print jo done in 2 hours.
+
+### Soldering
+Only soldering needed for this project is the one needed to create voltage divider circuit. Here are the steps:
+1.	Get the following parts: 
+a.	two resistors R1 (2200 Ω) and R2 (3300 Ω)
+b.	three wires
+c.	soldering iron
+2.	Strip both ends of the wires 
+3.	When soldering iron is ready to use: 
+a.	Solder two resistors at one end and one wire between them 
+b.	Solder remaining two wires to the free ends of resistors
+Following these steps, you will get your voltage divider ready. Make sure to check output voltage using multimeter. 
