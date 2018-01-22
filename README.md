@@ -15,6 +15,7 @@ RFID Reader Project
 
 ### Introduction
 Here you will find the instructions for building your own project on Raspberry Pi 2 utilizing RFID Serial tag reader. This project can be used to identify different RFID tags. RFID tag readers are used already in many applications such as allowing users to enter in buildings. This project is part of a bigger project where we plan to utilize functionality of RFID reader to authenticate users of a shopping mall to conveniently login and browse helpline service.
+
 Note: Please note that I will be referring to Raspberry Pi 2 as Pi occasionally. 
 
 ### Bill of Materials
@@ -60,6 +61,7 @@ The Parallax Serial RFID (Radio Frequency Identification) Card Reader (#28140) c
     Figure 2: Schematic for connecting RFID Serial Card Reader to Raspberry Pi 2 
 
 The SOUT pin of the RFID reader is connected to a voltage divider. Use a 2200 Ω (R1) resistor and a 3300 Ω (R2) resistor to reduce 5 volts coming out of the reader to about 3 volts. This is done to avoid the risk of damaging Pi with higher voltages. You can solder these resistors to create the voltage divider as shown in picture below. Make sure you check the output of voltage divider using a multimeter before incorporating it in the assembly.
+
 Now create the circuit in Figure 2; this should not take more than 10 minutes if done carefully. 
 
 #### Linux configuration: 
