@@ -63,11 +63,12 @@ The Parallax Serial RFID (Radio Frequency Identification) Card Reader (#28140) c
 
     Figure 2: Schematic for connecting RFID Serial Card Reader to Raspberry Pi 2 
 
-The SOUT pin of the RFID reader is connected to a voltage divider. Use a 2200 Ω (R1) resistor and a 3300 Ω (R2) resistor to reduce 5 volts coming out of the reader to about 3 volts. This is done to avoid the risk of damaging Pi with higher voltages. You can solder these resistors to create the voltage divider as shown in picture below. Make sure you check the output of voltage divider using a multimeter before incorporating it in the assembly.
+Use the schematic in Figure 2 above, to establish connections. The SOUT pin of the RFID reader is connected to a voltage divider. Use a 2200 Ω (R1) resistor and a 3300 Ω (R2) resistor to reduce 5 volts coming out of the RFID reader's SOUT to about 3 volts. This is done to avoid the risk of damaging Pi with higher voltages. You can solder these resistors along with a jumper wire to create the voltage divider as shown in picture below (also put a heat shrink on the wire). Make sure you check the output of voltage divider using a multimeter before incorporating it in the assembly.
 
 ![VoltageDivider](https://github.com/gurusharma/RFID/blob/master/Voltage%20Divider.PNG)
 
      Figure 3: Voltage Divider
+
 Now create the circuit in Figure 2; this should not take more than 10 minutes if done carefully. 
 
 #### Linux configuration: 
@@ -93,7 +94,7 @@ If you run into any issues with installation, follow this [link](https://jeffski
 
 #### Write Python script: 
 You can download the script [here](https://github.com/gurusharma/RFID/blob/master/rfid.py)
-and modify as needed. This script simply sets up Pi’s serial port and GPIO header. It identifies the tags being read by the reader inside a while loop. The reader reads input tag when it is enabled low. The code makes it enabled low and goes in the while loop and waits for the tag to be read. It is worth knowing that the RFID tag has 12 bytes of data, the validate_rfid function ensures that the tag being read has 12 characters.   
+and modify as needed. This script simply sets up Pi’s serial port and GPIO header. It identifies the tags being read by the reader inside a while loop. The reader reads input tag when it is enabled low. When you run the code, it makes reader enabled low and goes in the while loop and waits for the tag to be read. It is worth knowing that the RFID tag has 12 bytes of data, the validate_rfid function ensures that the tag being read has 12 characters.   
 
 #### Print a case for the sensor: 
 I utilized [TINKERCAD](https://www.tinkercad.com/) to create .stl file needed for 3D printing. You may utilize the [file](https://github.com/gurusharma/RFID/blob/master/RFID%203D%20case/RFID%203D%20case.stl) I created and edit it as needed or use any other freely available online tool of your choice to do it from scratch. Once you are satisfied with .stl file, you may get it printed from any facility of your choice. If you choose to do it with Toronto Public Library, make sure to read the detailed instructions on their [website](https://www.torontopubliclibrary.ca/using-the-library/computer-services/innovation-spaces/3D-design-print.jsp). 
@@ -119,7 +120,7 @@ Only soldering needed for this project is the one needed to create voltage divid
 Following these steps, you will get your voltage divider ready. Make sure to check output voltage using multimeter. 
 
 ### Assembly 
-Now assemble all the parts as shown in the image below. Put the RFID tag inside its case. You may utilize any 'ground pin' for assembly.
+Now assemble all the parts as shown in the image below and put the RFID tag inside its case. Also, you may utilize any 'ground pin' for assembly.
 
 ![Circuit](https://github.com/gurusharma/RFID/blob/master/Circuit.png)
 
@@ -138,7 +139,7 @@ After proper setup and powerup, we can now test the RFID sensor. Run the Python 
 ```
     sudo python rfid.py
 ```    
-Now check for LED color change on RFID reader; it should turn red from green. Now you can bring one of the “world tags” closer to the reader to read. You will see the message displayed on the screen as “Welcome User #” if it was the tag belonging to a pre-registered user. If it was a new tag, the message displayed would be: “Please contact admin to register first”.
+Now check for LED color change on RFID reader; it should turn red from green. Now you can bring one of the “world tags” closer to the reader to read. You will see the message displayed on the screen as “Welcome User #” if it was the tag belonging to a pre-registered user. If instead it was a new tag, then the message displayed would be: “Please contact admin to register first”.
 
 ### Production Testing 
 Write how color of LEDs change
