@@ -59,7 +59,7 @@ The SOUT pin of the RFID reader is connected to a voltage divider. Use a 2200 �
 Now create the circuit in Figure 2; this should not take more than 10 minutes if done carefully. 
 #Linux configuration: Use raspi-config to ensure that the shell is configured to run on serial port. From the main menu, select “Advanced Options” followed by “Serial”. Select “No” for the prompt to login shell over serial port. “Finish” and save configuration. Before you reboot also check that the “enable_uart” filed in “/boot/config.txt” is set equal to “1” and not “0”. Now reboot.
 
-# Install Python Packages: 
+#### Install Python Packages: 
 You may choose to program in any other language compatible with Pi. For the purpose of these build instructions, I will explain steps of programming Pi using Python. You will need to have “Python GPIO” and “Serial” packages installed. Raspberry Pi Linux distribution usually have some python packages installed. In case they are missing you can use following commands to install it: 
 sudo apt-get install python
 sudo apt-get install python-dev
@@ -71,12 +71,12 @@ After installing Python you may now install above mentioned packages using:
 sudo pip install RPi.GPIO
 sudo pip install pySerial
 If you run into any issues with installation, follow this link: https://jeffskinnerbox.wordpress.com/linux-python-packages-for-my-raspberry-pi/. 
-# Write Python script: 
+#### Write Python script: 
 You can download the script here: and modify as needed. This script simply sets up Pi’s serial port and GPIO header. It identifies the tags being read by the reader inside a while loop. The reader reads input tag when it is enabled low. The code makes it enabled low and goes in the while loop and waits for the tag to be read. It is worth knowing that the RFID tag has 12 bytes of data, the validate_rfid function ensures that the tag being read has 12 characters.   
 
-# Print a case for the sensor: 
+#### Print a case for the sensor: 
 I utilized [3D SLASH](https://www.3dslash.net/) to create .stl file needed for 3D printing. You may utilize the file I created and edit it as needed or use any other freely available online tool of your choice to do it from scratch. Once you are satisfied with .stl file, you may get it printed from any facility of your choice. If you choose to do it with Toronto Public Library, make sure to read the detailed instructions on their [website](https://www.torontopubliclibrary.ca/using-the-library/computer-services/innovation-spaces/3D-design-print.jsp). 
-# TIP: 
+##### TIP: 
 The software they use is “CURA” which by default tends to select thickness of printing thread to be 0.4 mm, which usually takes more than 2 hours to finish. Make sure to change this thickness to 0.6 mm (recommended) or 0.8 mm in order to get the print jo done in 2 hours.
 
 ### Soldering
