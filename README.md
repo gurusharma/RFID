@@ -16,7 +16,8 @@ RFID Reader Project
 ### Introduction
 Here you will find the instructions for building your own project on Raspberry Pi 2 utilizing RFID Serial tag reader. This project can be used to identify different RFID tags. RFID tag readers are used already in many applications such as allowing users to enter in buildings. This project is part of a bigger project where we plan to utilize functionality of RFID reader to authenticate users of a shopping mall to conveniently login and browse helpline service.
 
-Note: Please note that I will be referring to Raspberry Pi 2 as Pi occasionally. 
+##### Note: 
+Please note that I will be referring to Raspberry Pi 2 as Pi occasionally. 
 
 ### Bill of Materials
 You would need a budget of approximately $200.00 if you do not own or have access to any of the parts listed below. It is possible to obtain better deals, so feel free to do a little research before making a purchase. 
