@@ -153,8 +153,8 @@ If you successfully passed the unit test, you can are ready for production testi
 If you have the required budget and are able to follow the instructions listed above, you can easily reproduce the project and hopefully add more features to it. Happy coding and prototyping!!! All the Best!
 
 ### References
+[Helpful Link](https://medium.com/@coryaspencer/using-the-parallax-serial-rfid-reader-with-the-raspberry-pi-8c948090e687)
+
 [RFID Documentation](https://www.parallax.com/sites/default/files/downloads/28140-28340-RFID-Reader-Documentation-v2.4.pdf)
 
 [Toronto Public Library Printing](https://www.torontopubliclibrary.ca/using-the-library/computer-services/innovation-spaces/3D-design-print.jsp)
-
-[Other](https://medium.com/@coryaspencer/using-the-parallax-serial-rfid-reader-with-the-raspberry-pi-8c948090e687)
