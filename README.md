@@ -14,7 +14,7 @@ RFID Reader Project
 9. [Reproducible](#reproducible)
 
 ### Introduction
-Here you will find the instructions for building your own project on Raspberry Pi 2 utilizing RFID Serial tag reader. This project can be used to identify different RFID tags. RFID tag readers are used already in many applications such as allowing users to enter in buildings. This project is part of a bigger project where we plan to utilize functionality of RFID reader to authenticate users of a shopping mall to conveniently login and browse helpline service. 
+Here you will find the instructions for building your own project on Raspberry Pi 2 utilizing RFID Serial tag reader. This project can be used to identify different RFID tags. RFID tag readers are used already in many applications such as allowing users to enter in buildings. This project is part of a bigger project where we plan to utilize functionality of RFID reader to authenticate users of a shopping mall to conveniently login and browse helpline service.
 Note: Please note that I will be referring to Raspberry Pi 2 as Pi occasionally. 
 
 ### Bill of Materials
@@ -59,7 +59,7 @@ The Parallax Serial RFID (Radio Frequency Identification) Card Reader (#28140) c
 
     Figure 2: Schematic for connecting RFID Serial Card Reader to Raspberry Pi 2 
 
-The SOUT pin of the RFID reader is connected to a voltage divider. Use a 2200 Ω (R1) resistor and a 3300 Ω (R2) resistor to reduce 5 volts coming out of the reader to about 3 volts. This is done to avoid the risk of damaging Pi with higher voltages. You can solder these resistors to create the voltage divider as shown in picture below. Make sure you check the output of voltage divider using a multimeter before incorporating it in the assembly.  
+The SOUT pin of the RFID reader is connected to a voltage divider. Use a 2200 Ω (R1) resistor and a 3300 Ω (R2) resistor to reduce 5 volts coming out of the reader to about 3 volts. This is done to avoid the risk of damaging Pi with higher voltages. You can solder these resistors to create the voltage divider as shown in picture below. Make sure you check the output of voltage divider using a multimeter before incorporating it in the assembly.
 Now create the circuit in Figure 2; this should not take more than 10 minutes if done carefully. 
 
 #### Linux configuration: 
@@ -81,7 +81,7 @@ After installing Python you may now install above mentioned packages using:
 sudo pip install RPi.GPIO
 sudo pip install pySerial
 ```
-If you run into any issues with installation, follow this link: https://jeffskinnerbox.wordpress.com/linux-python-packages-for-my-raspberry-pi/. 
+If you run into any issues with installation, follow this [link](https://jeffskinnerbox.wordpress.com/linux-python-packages-for-my-raspberry-pi/). 
 #### Write Python script: 
 You can download the script [here] 
 and modify as needed. This script simply sets up Pi’s serial port and GPIO header. It identifies the tags being read by the reader inside a while loop. The reader reads input tag when it is enabled low. The code makes it enabled low and goes in the while loop and waits for the tag to be read. It is worth knowing that the RFID tag has 12 bytes of data, the validate_rfid function ensures that the tag being read has 12 characters.   
