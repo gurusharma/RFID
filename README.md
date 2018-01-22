@@ -36,7 +36,7 @@ Note: Please note that I will be referring to Raspberry Pi 2 as Pi occasionally.
 
 
 ### Time Commitment
-This was part of a project course, divided over period of 12 weeks, but the hours spent on it were much less than 12X24 hrs. If the project is the only thing you have to do then it should take less than a week depending on how you divide tasks and deal with delays associated with finding and purchasing items. The table below gives approximate time breakdown per task: 
+This was part of a project course, divided over period of 12 weeks, but the actual work hours spent on it were 3 to 5 hours every week. If the project is the only thing you have to do then it should take less than a week depending on how you divide tasks and deal with delays associated with finding and purchasing items. The table below gives approximate time breakdown per task: 
 
 |    Tasks                                           	|    Time   Required to Finish Successfully    	|
 |----------------------------------------------------	|----------------------------------------------	|
@@ -44,7 +44,8 @@ This was part of a project course, divided over period of 12 weeks, but the hour
 |    Wait for delivery                               	|    1 day to 1 week                           	|
 |    Soldering and Testing Voltage Divider           	|    < 1 hours                                 	|
 |    Create .stl file for custom case 3D printing    	|    < 1 hour                                  	|
-|    Print the 3D case                               	|    ~ 2 Hours                                 	|
+|    Print the 3D case                               	|    ~ 2 hours                                 	|
+|    Configure the Pi                                   |    ~ 2 hours                                  |
 |    Project setup                                   	|    < 10 minutes                              	|
 |    Demo and Testing                                	|    < 30 minutes                              	|
 
