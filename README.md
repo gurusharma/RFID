@@ -19,6 +19,8 @@ Here you will find the instructions for building your own project on Raspberry P
 Note: Please note that I will be referring to Raspberry Pi 2 as Pi occasionally. 
 
 ### Bill of Materials
+You would need a budget of approximately $200.00 if you do not own or have access to any of the parts listed below. It is possible to obtain better deals, so feel free to do a little research before making a purchase. 
+
 |                      Item                      	|        Quantity       	|                                                             Cost                                                             	|                                                                                     Supplier                                                                                     	|
 |:----------------------------------------------:	|:---------------------:	|:----------------------------------------------------------------------------------------------------------------------------:	|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:	|
 | Raspberry Pi 2 (Includes USB cable connectors) 	|           1           	| Only Pi: $ 45.95; Ultimate Starter Kit: $119.95; Complete Starter Kit: $99.95; Basic Starter Kit With Power Adaptor: $59.95 	|                                                        [Cana Kit](https://www.canakit.com/raspberry-pi/raspberry-pi-kits)                                                        	|
@@ -35,7 +37,7 @@ Note: Please note that I will be referring to Raspberry Pi 2 as Pi occasionally.
 \*** Primacc Soldering Iron Kit
 
 ##### Note:
-Prices may change over time and some of the prices are in USD so please verify before making a purchase.
+Prices may change over time and some of the prices are in USD, so, please verify before making a purchase.
 
 ### Time Commitment
 This was part of a project course, divided over period of 12 weeks, but the actual work hours spent on it were 3 to 5 hours every week. If the project is the only thing you have to do then it should take less than a week depending on how you divide tasks and deal with delays associated with finding and purchasing items. The table below gives approximate time breakdown per task: 
@@ -147,5 +149,8 @@ Now check for LED color change on RFID reader; it should turn red from green. No
 Write how color of LEDs change
 
 ### Reproducible
-If you are able to follow the instructions listed above, you can easily reproduce the project and hopefully add more features to it. Happy coding and prototyping!!! All the Best!
+If you have the required budget and are able to follow the instructions listed above, you can easily reproduce the project and hopefully add more features to it. Happy coding and prototyping!!! All the Best!
 
+### References
+[RFID Documentation](https://www.parallax.com/sites/default/files/downloads/28140-28340-RFID-Reader-Documentation-v2.4.pdf)
+[Other](https://medium.com/@coryaspencer/using-the-parallax-serial-rfid-reader-with-the-raspberry-pi-8c948090e687)
