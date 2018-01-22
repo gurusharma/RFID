@@ -94,9 +94,9 @@ The software they use is “CURA” which by default tends to select thickness o
 ### PCB or Soldering
 Only soldering needed for this project is the one needed to create voltage divider circuit. Here are the steps:
 1.	Get the following parts: 
-    * two resistors R1 (2200 Ω) and R2 (3300 Ω)
-    *	three wires
-    *	soldering iron
+    1. two resistors R1 (2200 Ω) and R2 (3300 Ω)
+    2. three wires
+    3. soldering iron
 2.	Strip both ends of the wires 
 3.	When soldering iron is ready to use: 
     *	Solder two resistors at one end and one wire between them 
