@@ -64,7 +64,8 @@ The Parallax Serial RFID (Radio Frequency Identification) Card Reader (#28140) c
     Figure 2: Schematic for connecting RFID Serial Card Reader to Raspberry Pi 2 
 
 The SOUT pin of the RFID reader is connected to a voltage divider. Use a 2200 Ω (R1) resistor and a 3300 Ω (R2) resistor to reduce 5 volts coming out of the reader to about 3 volts. This is done to avoid the risk of damaging Pi with higher voltages. You can solder these resistors to create the voltage divider as shown in picture below. Make sure you check the output of voltage divider using a multimeter before incorporating it in the assembly.
-
+![VoltageDivider](https://github.com/gurusharma/RFID/blob/master/Voltage%20Divider.PNG)
+     Figure 3: Voltage Divider
 Now create the circuit in Figure 2; this should not take more than 10 minutes if done carefully. 
 
 #### Linux configuration: 
