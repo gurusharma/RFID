@@ -119,6 +119,13 @@ Following these steps, you will get your voltage divider ready. Make sure to che
 
 ### Assembly 
 Now assemble all the parts as shown in the image below. Put the RFID tag inside its case.
+![Circuit](https://github.com/gurusharma/RFID/blob/master/Circuit.png)
+
+    Figure 5: Circuit Assembly with ports
+
+![Assembly1](https://github.com/gurusharma/RFID/blob/master/Assembly1.jpg)
+![Assembly2](https://github.com/gurusharma/RFID/blob/master/Assembly2.jpg)
+    Figure 6: Complete Assembly
 
 ### Power Up
 After successfully completing the tasks above, you are ready to power up. Make sure your circuit connections are correctly established; fix errors in the setup if you encounter any. Now plug the USB into Pi and connect to a computer device. In order to get the output displayed on computer, plug in the HDMI cable. Turn on the Pi. Make sure you have all the packages listed above installed in order to run the python script.
