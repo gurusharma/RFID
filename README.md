@@ -99,8 +99,8 @@ Only soldering needed for this project is the one needed to create voltage divid
     3. soldering iron
 2.	Strip both ends of the wires 
 3.	When soldering iron is ready to use: 
-    *	Solder two resistors at one end and one wire between them 
-    *	Solder remaining two wires to the free ends of resistors
+    1. Solder two resistors at one end and one wire between them 
+    2. Solder remaining two wires to the free ends of resistors
 Following these steps, you will get your voltage divider ready. Make sure to check output voltage using multimeter. 
 
 ### Assembly 
