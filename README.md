@@ -53,11 +53,11 @@ From the breakdown above it is clear that the project does not take very long to
 The Parallax Serial RFID (Radio Frequency Identification) Card Reader (#28140) can be connected to any host microcontroller easily using only four connections. For the purpose of this project, I am using Raspberry Pi 2. There are 4 pins on the RFID reader and following table (from official documentation) lists their type and functionality: 
 ![RFIDPins](https://github.com/gurusharma/RFID/blob/master/RFID%20Pins.PNG)
 
-    * Figure 1: RFID Serial Card Reader pin type and functionality
+    Figure 1: RFID Serial Card Reader pin type and functionality
 
 ![Connections](https://github.com/gurusharma/RFID/blob/master/Connections.png)
 
-    * Figure 2: Schematic for connecting RFID Serial Card Reader to Raspberry Pi 2
+    Figure 2: Schematic for connecting RFID Serial Card Reader to Raspberry Pi 2 
 
 The SOUT pin of the RFID reader is connected to a voltage divider. Use a 2200 Ω (R1) resistor and a 3300 Ω (R2) resistor to reduce 5 volts coming out of the reader to about 3 volts. This is done to avoid the risk of damaging Pi with higher voltages. You can solder these resistors to create the voltage divider as shown in picture below. Make sure you check the output of voltage divider using a multimeter before incorporating it in the assembly.  
 Now create the circuit in Figure 2; this should not take more than 10 minutes if done carefully. 
@@ -94,13 +94,13 @@ The software they use is “CURA” which by default tends to select thickness o
 ### PCB or Soldering
 Only soldering needed for this project is the one needed to create voltage divider circuit. Here are the steps:
 1.	Get the following parts: 
-    a.	two resistors R1 (2200 Ω) and R2 (3300 Ω)
-    b.	three wires
-    c.	soldering iron
+    * two resistors R1 (2200 Ω) and R2 (3300 Ω)
+    *	three wires
+    *	soldering iron
 2.	Strip both ends of the wires 
 3.	When soldering iron is ready to use: 
-    a.	Solder two resistors at one end and one wire between them 
-    b.	Solder remaining two wires to the free ends of resistors
+    *	Solder two resistors at one end and one wire between them 
+    *	Solder remaining two wires to the free ends of resistors
 Following these steps, you will get your voltage divider ready. Make sure to check output voltage using multimeter. 
 
 ### Assembly 
