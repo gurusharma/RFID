@@ -28,7 +28,7 @@ You would need a budget of approximately $200.00 if you do not own or have acces
 |            RFID Card Reader and Tags           	| 1(reader) + 3(tags) 	|                                                            $ 59.99                                                           	|                                                             [Parallax Inc](https://www.parallax.com/product/32390)                                                              	|
 |           Female-Female Jumper Wires           	|           6           	|                                                           $ 3.95 *                                                           	|                            [adafruit](https://www.adafruit.com/product/266)                           	|
 |                    Resistors                   	|           2           	|                                                           $ 6.86 **                                                          	|              [Amazon](https://www.amazon.com/dp/B01ERPXFZK/ref=sspa_dk_detail_3?psc=1&pd_rd_i=B01ERPXFZK&pd_rd_wg=MK4GM&pd_rd_r=60TKJ3G1SDZ08G6YW486&pd_rd_w=REy7O)             	|
-|       Soldering Kit (with Soldering Iron)      	|           1           	|                                                          $ 31.00 ***                                                         	| [Amazon](https://www.amazon.ca/Primacc-Adjustable-Temperature-Controlled-Interchangeable/dp/B06XCZC4PF/ref=sr_1_3?ie=UTF8&qid=1516578338&sr=8-3&keywords=soldering+kit)   Humber 	|
+|       Soldering Kit (with Soldering Iron)      	|           1           	|                                                          $ 31.00 ***                                                         	| [Amazon](https://www.amazon.ca/Primacc-Adjustable-Temperature-Controlled-Interchangeable/dp/B06XCZC4PF/ref=sr_1_3?ie=UTF8&qid=1516578338&sr=8-3&keywords=soldering+kit)   Humber Prototype Lab 	|
 |            3-D Case for RFID reader            	|           1           	|                                                            $ 1.80                                                            	|                      [Toronto Public Library](https://www.torontopubliclibrary.ca/using-the-library/computer-services/innovation-spaces/3D-design-print.jsp)                     	|
 
 \* Premium Female/Female Jumper Wires - 40 x 6" (you can strip wires to make individual ones)
@@ -154,5 +154,7 @@ If you have the required budget and are able to follow the instructions listed a
 
 ### References
 [RFID Documentation](https://www.parallax.com/sites/default/files/downloads/28140-28340-RFID-Reader-Documentation-v2.4.pdf)
+
+[Toronto Public Library Printing](https://www.torontopubliclibrary.ca/using-the-library/computer-services/innovation-spaces/3D-design-print.jsp)
 
 [Other](https://medium.com/@coryaspencer/using-the-parallax-serial-rfid-reader-with-the-raspberry-pi-8c948090e687)
