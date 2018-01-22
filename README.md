@@ -79,7 +79,7 @@ I utilized [3D SLASH](https://www.3dslash.net/) to create .stl file needed for 3
 ##### TIP: 
 The software they use is “CURA” which by default tends to select thickness of printing thread to be 0.4 mm, which usually takes more than 2 hours to finish. Make sure to change this thickness to 0.6 mm (recommended) or 0.8 mm in order to get the print jo done in 2 hours.
 
-### Soldering
+### PCB/Soldering
 Only soldering needed for this project is the one needed to create voltage divider circuit. Here are the steps:
 1.	Get the following parts: 
 a.	two resistors R1 (2200 Ω) and R2 (3300 Ω)
@@ -90,3 +90,15 @@ c.	soldering iron
 a.	Solder two resistors at one end and one wire between them 
 b.	Solder remaining two wires to the free ends of resistors
 Following these steps, you will get your voltage divider ready. Make sure to check output voltage using multimeter. 
+
+### Assembly 
+Now assemble all the parts as shown in the image below. Put the RFID tag inside its case.
+
+### Power Up
+After successfully completing the tasks above, you are ready to power up. Make sure your circuit connections are correctly established; fix errors in the setup if you encounter any. Now plug the USB into Pi and connect to a computer device. Turn on the Pi
+Unit Testing: After proper setup and powerup, we can now test the RFID sensor. Bring one of the “word tags” closer to the reader until it beeps. You will see the message displayed on the screen as “Welcome User #” if it was the tag belonging to a pre-registered user. If it was a new tag, the message displayed would be: “Please contact admin to register first”.
+### Production Testing 
+Write how color of LEDs change
+### Reproducible
+If you are able to follow the instructions listed above, you can easily reproduce the project and hopefully add more features to it. Happy coding and prototyping!!! All the Best!
+
