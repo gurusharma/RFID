@@ -26,3 +26,55 @@ Note: Please note that I will be referring to Raspberry Pi 2 as Pi occasionally.
 |    Resistors                                         	|    2                        	|    $ 6.86 **                                                                                                                                  	|    Amazon                                                   	|
 |    Soldering Kit (with Soldering Iron)               	|    1                        	|    $ 31.00 ***                                                                                                                                	|    Amazon   Humber                                          	|
 |    3-D Case for RFID reader                          	|    1                        	|    $ 1.80                                                                                                                                     	|    Toronto   Public Library                                 	|
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-gwa0{font-weight:bold;background-color:#646809;color:#ffffff;text-align:center;vertical-align:top}
+.tg .tg-zktd{font-weight:bold;background-color:#646809;color:#ffffff;text-align:center}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-zktd"><br>  Item<br>  </th>
+    <th class="tg-zktd"><br>  Quantity<br>  </th>
+    <th class="tg-gwa0"><br>  Cost<br>  </th>
+    <th class="tg-gwa0"><br>  Supplier<br>  </th>
+  </tr>
+  <tr>
+    <td class="tg-031e"><br>  Raspberry Pi 2 (Includes USB cable connectors)<br>  </td>
+    <td class="tg-031e"><br>  1<br>  </td>
+    <td class="tg-yw4l"><br>  Only Pi: $ 45.95<br>  <br>  ULTIMATE STARTER<br>  KIT: $119.95<br>  COMPLETE<br>  STARTER KIT: $99.95<br>  BASIC STARTER<br>  KIT WITH POWER ADAPTOR: $59.95<br>  </td>
+    <td class="tg-yw4l"><br>  Cana Kit<br>  </td>
+  </tr>
+  <tr>
+    <td class="tg-031e"><br>  RFID Card Reader and Tags<br>  </td>
+    <td class="tg-031e"><br>  1 (reader) + 3 (tags)<br>  </td>
+    <td class="tg-yw4l"><br>  $ 59.99<br>  </td>
+    <td class="tg-yw4l"><br>  Parallax Inc<br>  https://www.parallax.com/product/32390<br>  </td>
+  </tr>
+  <tr>
+    <td class="tg-031e"><br>  Female-Female Jumper Wires<br>  </td>
+    <td class="tg-031e"><br>  1<br>  </td>
+    <td class="tg-yw4l"><br>  $ 4.00 *<br>  </td>
+    <td class="tg-yw4l"><br>  Seed<br>  Studio<br>  </td>
+  </tr>
+  <tr>
+    <td class="tg-031e"><br>  Resistors<br>  </td>
+    <td class="tg-031e"><br>  2<br>  </td>
+    <td class="tg-yw4l"><br>  $ 6.86 **<br>  </td>
+    <td class="tg-yw4l"><br>  Amazon<br>  </td>
+  </tr>
+  <tr>
+    <td class="tg-031e"><br>  Soldering Kit (with Soldering Iron)<br>  </td>
+    <td class="tg-031e"><br>  1<br>  </td>
+    <td class="tg-yw4l"><br>  $ 31.00 ***<br>  </td>
+    <td class="tg-yw4l"><br>  Amazon<br>  Humber<br>  </td>
+  </tr>
+  <tr>
+    <td class="tg-031e"><br>  3-D Case for RFID reader<br>  </td>
+    <td class="tg-031e"><br>  1<br>  </td>
+    <td class="tg-yw4l"><br>  $ 1.80<br>  </td>
+    <td class="tg-yw4l"><br>  Toronto<br>  Public Library<br>  </td>
+  </tr>
+</table>
