@@ -118,10 +118,14 @@ Following these steps, you will get your voltage divider ready. Make sure to che
 Now assemble all the parts as shown in the image below. Put the RFID tag inside its case.
 
 ### Power Up
-After successfully completing the tasks above, you are ready to power up. Make sure your circuit connections are correctly established; fix errors in the setup if you encounter any. Now plug the USB into Pi and connect to a computer device. Turn on the Pi
+After successfully completing the tasks above, you are ready to power up. Make sure your circuit connections are correctly established; fix errors in the setup if you encounter any. Now plug the USB into Pi and connect to a computer device. In order to get the output displayed on computer, plug in the HDMI cable. Turn on the Pi. Make sure you have all the packages listed above installed in order to run the python script.
 
 ### Unit Testing
-After proper setup and powerup, we can now test the RFID sensor. Bring one of the “word tags” closer to the reader until it beeps. You will see the message displayed on the screen as “Welcome User #” if it was the tag belonging to a pre-registered user. If it was a new tag, the message displayed would be: “Please contact admin to register first”.
+After proper setup and powerup, we can now test the RFID sensor. Run the Python script using the following command: 
+```
+    sudo python rfid.py
+```    
+Bring one of the “word tags” closer to the reader until it beeps. You will see the message displayed on the screen as “Welcome User #” if it was the tag belonging to a pre-registered user. If it was a new tag, the message displayed would be: “Please contact admin to register first”.
 
 ### Production Testing 
 Write how color of LEDs change
