@@ -97,9 +97,9 @@ sudo pip install pySerial
 ```
 If you run into any issues with installation, follow this [link](https://jeffskinnerbox.wordpress.com/linux-python-packages-for-my-raspberry-pi/). 
 
-#### Write Python script: 
+#### Write a Python script: 
 You can download the script [here](https://github.com/gurusharma/RFID/blob/master/rfid.py)
-and modify as needed. This script simply sets up Pi’s serial port and GPIO header. It identifies the tags being read by the reader inside a while loop. The reader reads input tag when it is enabled low. When you run the code, it makes reader enabled low and goes in the while loop and waits for the tag to be read. It is worth knowing that the RFID tag has 12 bytes of data, the validate_rfid function ensures that the tag being read has 12 characters.   
+and modify as needed. This script simply sets up Pi’s serial port and GPIO header. It identifies the tags being read by the reader inside a while loop. The reader reads the input tag when it is enabled low. When you run the code, it makes reader enabled low and goes into the while loop and waits for the tag to be read. It is worth knowing that the RFID tag has 12 bytes of data, the validate_rfid function ensures that the tag being read has 12 characters.      
 
 #### Print a case for the sensor: 
 I utilized [TINKERCAD](https://www.tinkercad.com/) to create .stl file needed for 3D printing. You may utilize the [file](https://github.com/gurusharma/RFID/blob/master/RFID%203D%20case/RFID%203D%20case.stl) I created and edit it as needed or use any other freely available online tool of your choice to do it from scratch. Once you are satisfied with .stl file, you may get it printed from any facility of your choice. If you choose to do it with Toronto Public Library, make sure to read the detailed instructions on their [website](https://www.torontopubliclibrary.ca/using-the-library/computer-services/innovation-spaces/3D-design-print.jsp). 
