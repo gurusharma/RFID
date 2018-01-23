@@ -45,9 +45,9 @@ This was part of a project course, divided over a period of 12 weeks, but the ac
 
 |    Tasks                                           	|    Time   Required to Finish Successfully    	|
 |----------------------------------------------------	|----------------------------------------------	|
-|    Look for parts and make a purchase *             	|    2 Hours                                   	|
+|    Look for parts and make a purchase *             	|    2 hours                                   	|
 |    Wait for delivery                               	|    1 day to 1 week                           	|
-|    Soldering and Testing Voltage Divider           	|    < 1 hours                                 	|
+|    Soldering and Testing Voltage Divider           	|    < 1 hour                                 	|
 |    Create .stl file for custom case 3D printing    	|    < 1 hour                                  	|
 |    Print the 3D case                               	|    ~ 2 hours                                 	|
 |    Configure the Pi and download libraries            |    ~ 2 hours                                  |
