@@ -147,7 +147,7 @@ After proper setup and powerup, we can now test the RFID sensor. Run the Python 
 Now check for LED color change on RFID reader; it should turn red from green. Now you can bring one of the “world tags” closer to the reader to read. You will see the message displayed on the screen as “Welcome User #” if it was the tag belonging to a pre-registered user. If instead it was a new tag, then the message displayed would be: “Please contact admin to register first”.
 
 ### Production Testing 
-If you successfully passed the unit test, you can are ready for production testing. Run the python script multiple times with different RFID tags. Check if you get the expected results. The cards are read when the LED on reder is red, on detection it turns green for a moment. Now your prototype is functional, you may modify the script to add more fucntionality.
+If you successfully passed the unit testing, you can now go ahead with production testing. Run the python script multiple times and test different RFID tags. Check if you get the expected results. The tags are read when the LED on the reader is red (i.e. enabled low). Now your prototype is functional, you may modify the script to add more functionality.
 
 ### Reproducible
 If you have the required budget and are able to follow the instructions listed above, you can easily reproduce the project and hopefully add more features to it. Happy coding and prototyping!!! All the Best!
