@@ -80,7 +80,7 @@ Now create the circuit in Figure 2; this should not take more than 10 minutes if
 Use raspi-config to ensure that the shell is configured to run on serial port. From the main menu, select “Advanced Options” followed by “Serial”. Select “No” for the prompt to login shell over serial port. “Finish” and save configuration. Before you reboot also check that the “enable_uart” filed in “/boot/config.txt” is set equal to “1” and not “0”. Now reboot.
 
 #### Install Python Packages: 
-You may choose to program in any other language compatible with Pi. For the purpose of these build instructions, I will explain steps of programming Pi using Python. You will need to have “Python GPIO” and “Serial” packages installed. Raspberry Pi Linux distribution usually have some python packages installed. In case they are missing you can use following commands to install it: 
+You may choose to program in any other language compatible with Pi. For the purpose of these build instructions, I will explain steps of programming Pi using Python. You will need to have “Python GPIO” and “Serial” packages installed. Raspberry Pi Linux distribution usually have some python packages installed. In case they are missing you can use the following commands to install it: 
 ```
 sudo apt-get install python
 sudo apt-get install python-dev
@@ -89,7 +89,7 @@ sudo apt-get install libfreetype6-dev
 sudo apt-get install python-setuptools
 sudo apt-get install python-pip
 ```
-After installing Python you may now install above mentioned packages using: 
+After installing Python, you may now install above mentioned packages using: 
 
 ```
 sudo pip install RPi.GPIO
