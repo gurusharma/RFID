@@ -140,7 +140,7 @@ Now assemble all the parts as shown in the image below and put the RFID tag insi
 After successfully completing the tasks above, you are ready to power up. Make sure your circuit connections are correctly established; fix errors in the setup if you encounter any. Now plug the USB into Pi and connect to a computer device. In order to get the output displayed on computer, plug in the HDMI cable. Turn on the Pi. Make sure you have all the packages listed above installed in order to run the python script.
 
 ### Unit Testing
-After proper setup and powerup, we can now test the RFID sensor. Run the Python script using the following command: 
+After proper setup and power up, we can now test the RFID sensor. Run the Python script using the following command: 
 ```
     sudo python rfid.py
 ```    
