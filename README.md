@@ -54,7 +54,7 @@ This was part of a project course, divided over a period of 12 weeks, but the ac
 |    Project setup                                   	|    < 10 minutes                              	|
 |    Demo and Testing                                	|    < 30 minutes                              	|
 
-\* Less than 30 Minutes if you follow the links provided in previous section
+\* Less than 30 Minutes if you follow the links provided in the previous section
 
 From the breakdown above, it is clear that the project does not take very long to complete. If you follow the instructions correctly and are dedicated, you can build your own prototype in less than a week.  
 
