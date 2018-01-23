@@ -14,7 +14,7 @@ RFID Reader Project
 9. [Reproducible](#reproducible)
 
 ### Introduction
-Here you will find the instructions for building your own project on Raspberry Pi 2 utilizing RFID Serial tag reader. This project can be used to identify different RFID tags. RFID tag readers are used already in many applications, such as, automatic user identification, robotics, inventory tracking and payment systems. This project is part of a bigger project where we plan to utilize functionality of RFID reader to authenticate users of a shopping mall to conveniently login and browse helpline service.
+Here you will find the instructions for building your own project on Raspberry Pi 2 utilizing RFID Serial tag reader. This project can be used to identify different RFID tags. RFID tag readers are already used in many applications, such as, automatic user identification, robotics, inventory tracking and payment systems. This project is part of a bigger project where we plan to utilize the functionality of RFID reader to authenticate users of a shopping mall to conveniently login and browse helpline service.
 
 ##### Note: 
 Please note that I will be referring to Raspberry Pi 2 as Pi occasionally. 
