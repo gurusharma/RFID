@@ -62,7 +62,7 @@ From the breakdown above, it is clear that the project does not take very long t
 The Parallax Serial RFID (Radio Frequency Identification) Card Reader (#28140) can be connected to any host microcontroller easily using only four connections. For the purpose of this project, I am using Raspberry Pi 2. There are 4 pins on the RFID reader and following table (from official documentation) lists their type and functionality: 
 ![RFIDPins](https://github.com/gurusharma/RFID/blob/master/RFID%20Pins.PNG)
 
-    Figure 1: RFID Serial Card Reader pin type and functionality
+    Figure 1: RFID Serial Card Reader's Pin Type and Functionality
 
 ![Connections](https://github.com/gurusharma/RFID/blob/master/Connections.png)
 
@@ -129,7 +129,7 @@ Now assemble all the parts as shown in the image below and put the RFID tag insi
 
 ![Circuit](https://github.com/gurusharma/RFID/blob/master/Circuit.png)
 
-    Figure 5: Circuit Assembly with ports
+    Figure 5: Circuit Assembly with Ports
 
 ![Assembly1](https://github.com/gurusharma/RFID/blob/master/Assembly1.jpg)
 ![Assembly2](https://github.com/gurusharma/RFID/blob/master/Assembly2.jpg)
