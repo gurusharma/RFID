@@ -7,7 +7,7 @@ RFID Reader Project
 2. [Bill of Materials](#bill-of-materials)
 3. [Time Commitment](#time-commitment)
 4. [Mechanical Assembly](#mechanical-assembly)
-    1.  [Linux Configuration](#linux-config) 
+    1.  [Linux Configuration](##linux-config) 
 5. [PCB or Soldering](#pcb-or-soldering)
 6. [Power Up](#power-up)
 7. [Unit Testing](#unit-testing)
