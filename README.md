@@ -14,7 +14,7 @@ RFID Reader Project
 9. [Reproducible](#reproducible)
 
 ### Introduction
-Here you will find the instructions for building your own project on Raspberry Pi 2 utilizing RFID Serial tag reader. This project can be used to identify different RFID tags. RFID tag readers are already used in many applications, such as, automatic user identification, robotics, inventory tracking and payment systems. This project is part of a bigger project where we plan to utilize the functionality of RFID reader to authenticate users of a shopping mall to conveniently login and browse helpline service.
+Here you will find the instructions for building your own project on Raspberry Pi 2 utilizing RFID Serial tag reader. This project can be used to identify different RFID tags. RFID tag readers are already used in many applications, such as automatic user identification, robotics, inventory tracking and payment systems. This project is part of a bigger project where we plan to utilize the functionality of RFID reader to authenticate users of a shopping mall to conveniently login and browse helpline service.
 
 ##### Note: 
 Please note that I will be referring to Raspberry Pi 2 as Pi occasionally. 
@@ -41,7 +41,7 @@ You would need a budget of approximately $200.00 if you do not own or have acces
 Prices may change over time and some of the prices are in USD, so, please verify before making a purchase.
 
 ### Time Commitment
-This was part of a project course, divided over period of 12 weeks, but the actual work hours spent on it were 3 to 5 hours every week. If the project is the only thing you have to do then it should take less than a week depending on how you divide tasks and deal with delays associated with finding and purchasing items. The table below gives approximate time breakdown per task: 
+This was part of a project course, divided over a period of 12 weeks, but the actual work hours spent on it were 3 to 5 hours every week. If the project is the only thing you have to do, then it should take less than a week, depending on how you divide tasks and deal with delays associated with finding and purchasing items. The table below gives an approximate time breakdown per task: 
 
 |    Tasks                                           	|    Time   Required to Finish Successfully    	|
 |----------------------------------------------------	|----------------------------------------------	|
