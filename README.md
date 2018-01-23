@@ -109,7 +109,7 @@ I utilized [TINKERCAD](https://www.tinkercad.com/) to create .stl file needed fo
     Figure 4: 3D Printed Sensor Case
 
 ##### TIP: 
-The software they use for reading .stl file and printing is “CURA”, which by default tends to select thickness of printing thread to be 0.4 mm, which usually takes more than 2 hours to finish. Make sure to change this thickness to 0.6 mm (recommended) or 0.8 mm in order to get the print done in 2 hours. In case you still have any issues, ask the satff; they are very helpful. 
+The software they use for reading .stl file and printing is “CURA”, which by default tends to select the thickness of printing thread to be 0.4 mm, which usually takes more than 2 hours to finish. Make sure to change this thickness to 0.6 mm (recommended) or 0.8 mm in order to get the print done in 2 hours. In case you still have any issues, ask the staff; they are very helpful. 
 
 ### PCB or Soldering
 Only soldering needed for this project is the one needed to create voltage divider circuit. Here are the steps:
