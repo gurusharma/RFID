@@ -7,6 +7,7 @@ RFID Reader Project
 2. [Bill of Materials](#bill-of-materials)
 3. [Time Commitment](#time-commitment)
 4. [Mechanical Assembly](#mechanical-assembly)
+    1.  [Linux Configuration](#linux-config) 
 5. [PCB or Soldering](#pcb-or-soldering)
 6. [Power Up](#power-up)
 7. [Unit Testing](#unit-testing)
@@ -76,7 +77,7 @@ Use the schematic in Figure 2 above, to establish connections. The SOUT pin of t
 
 Now create the circuit in Figure 2; this should not take more than 10 minutes if done carefully. 
 
-#### Linux configuration: 
+#### Linux Configuration: 
 Use raspi-config to ensure that the shell is configured to run on serial port. From the main menu, select “Advanced Options” followed by “Serial”. Select “No” for the prompt to login shell over serial port. “Finish” and save configuration. Before you reboot also check that the “enable_uart” filed in “/boot/config.txt” is set equal to “1” and not “0”. Now reboot.
 
 #### Install Python Packages: 
