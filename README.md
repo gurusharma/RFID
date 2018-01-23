@@ -14,7 +14,7 @@ RFID Reader Project
 9. [Reproducible](#reproducible)
 
 ### Introduction
-Here you will find the instructions for building your own project on Raspberry Pi 2 utilizing RFID Serial tag reader. This project can be used to identify different RFID tags. RFID tag readers are used already in many applications such as allowing users to enter in buildings. This project is part of a bigger project where we plan to utilize functionality of RFID reader to authenticate users of a shopping mall to conveniently login and browse helpline service.
+Here you will find the instructions for building your own project on Raspberry Pi 2 utilizing RFID Serial tag reader. This project can be used to identify different RFID tags. RFID tag readers are used already in many applications, such as, automatic user identification, robotics, inventory tracking and payment systems. This project is part of a bigger project where we plan to utilize functionality of RFID reader to authenticate users of a shopping mall to conveniently login and browse helpline service.
 
 ##### Note: 
 Please note that I will be referring to Raspberry Pi 2 as Pi occasionally. 
@@ -119,8 +119,8 @@ Only soldering needed for this project is the one needed to create voltage divid
     3. soldering iron
 2.	Strip both ends of the wire
 3.	When soldering iron is ready to use: 
-    1. Solder two resistors at one end and one end of jumper wire between them 
-    2. Now put the heat shrink on the soldered part
+    1. solder two resistors at one end and one end of jumper wire between them 
+    2. now put the heat shrink on the soldered part
     
 Following these steps, you will get your voltage divider ready. Make sure to check output voltage using multimeter. 
 
