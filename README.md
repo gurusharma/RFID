@@ -112,17 +112,17 @@ I utilized [TINKERCAD](https://www.tinkercad.com/) to create .stl file needed fo
 The software they use for reading .stl file and printing is “CURA”, which by default tends to select the thickness of printing thread to be 0.4 mm, which usually takes more than 2 hours to finish. Make sure to change this thickness to 0.6 mm (recommended) or 0.8 mm in order to get the print done in 2 hours. In case you still have any issues, ask the staff; they are very helpful. 
 
 ### PCB or Soldering
-Only soldering needed for this project is the one needed to create voltage divider circuit. Here are the steps:
+Only soldering needed for this project is the one needed to create a voltage divider circuit. Here are the steps:
 1.	Get the following parts: 
     1. two resistors R1 (2200 Ω) and R2 (3300 Ω)
     2. one jumper wire and heat shrink
     3. soldering iron
 2.	Strip both ends of the wire
 3.	When soldering iron is ready to use: 
-    1. solder two resistors at one end and one end of jumper wire between them 
+    1. solder two resistors at one end and one end of the jumper wire between them 
     2. now put the heat shrink on the soldered part
     
-Following these steps, you will get your voltage divider ready. Make sure to check output voltage using multimeter. 
+Following these steps, you will get your voltage divider ready. Make sure to check the output voltage using a multimeter. 
 
 ### Assembly 
 Now assemble all the parts as shown in the image below and put the RFID tag inside its case. Also, you may utilize any 'ground pin' for assembly.
